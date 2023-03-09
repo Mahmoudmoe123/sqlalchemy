@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h1>Enter An Integer To Find Out If It Is Even Or Odd:</h1>
+  <form method="get" action="{{ url_for('result') }}">
+    <input type="text" name="number">
+    <button type="submit">Submit</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  {% if result %}
+    <h1>The number is {{ result }}.</h1>
+    <a href="{{ url_for('home') }}">Go back home</a>
+  {% else %}
+    <h1>Error: {{ result }}</h1>
+  {% endif %}
+{% endblock %}
