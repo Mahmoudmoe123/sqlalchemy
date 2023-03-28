@@ -1,4 +1,3 @@
-
 # ITSC 3155 Module 11 Assignment
 
 This movie app is very similar to the one you worked on in a team in Module 9. Here, I have started the application for you and you only need to write code in the `TODO` sections.
@@ -25,4 +24,4 @@ You must have Python 3.10.* installed to run this application.
 _**IMPORTANT NOTE:**_ Do **NOT** commit your DB password, delete it out of `app.py` before making any commits and pushing to GitHub, especialy if you reuse that password elsewhere (which is its own problem, use a password manager and unique passwords everywhere).
 
 
-*This assignment was created for the ITSC 3155 Software Engineering course, at the College of Computing and Informatics at UNC Charlotte*
+*This assignment was created for the ITSC 3155 Software Engineering course, taught by Jacob Kedar Krevat, at the College of Computing and Informatics at UNC Charlotte*
